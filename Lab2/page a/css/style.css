@@ -1,0 +1,227 @@
+*{
+    font-size: 12px;
+    color: #333333;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Tahoma, Arial,sans-serif;
+}
+#page{
+    background: #eeeeee;
+}
+#section_normal_1{
+    background: hsl(0deg 0% 100%);
+    height: 80px;
+    border-bottom: 4px solid #555555;
+}
+#section_normal_1 .alpha{
+    float: left;
+    width: auto;
+}
+#section_normal_1 .omega{
+    float: right;
+    width: auto;
+}
+#section_normal_1 .omega .social_button{
+    margin-left: 5px;
+    float: right;
+}
+#section_normal_1 .omega .htext_style{
+    padding-top: 15px;
+    margin-right: 40px;
+    float: left;
+}
+.container{
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sixteen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*flex-direction: row;*/
+}
+.columns{
+    padding: 18px 0;
+}
+
+.pix_text{
+    font-weight: bold;
+    color: #999999;
+}
+
+.slow_fade {
+    margin-right: 10px;
+}
+/********************************************************************************/
+#section_normal_4_2{
+    background-color: hsl(0deg 0% 20%);
+}
+
+.bold_text{
+    padding: 10px;
+    color: aquamarine;
+    font-size: 26px;
+}
+.editContent{
+    padding-bottom: 20px;
+}
+.big_title{
+    font-size: 50px;
+    color: #eeeeee;
+}
+.normal_text{
+    color: #999999;
+    font-size:20px;
+}
+.eight{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.img_style{
+    padding-right: 20px;
+    height: 400px;
+    width: 500px;
+}
+.pix_button {
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #eeeeee;
+    text-align: center;
+    background-color: hsl(192.83deg 80.26% 54.31%);
+}
+/******************************************************************/
+#section_normal_6{
+    background: hsl(0deg 0% 93.33%);
+}
+#section_normal_6 .container .L1_style .pix_text{
+    font-size: 18px;
+}
+.envato_unbounce{
+    padding: 32px 0;
+}
+.L1_style {
+    text-align: center;
+    opacity: 0.55;
+    font-weight: bold;
+
+}
+
+.L2_style {
+    text-align: center;
+    color: #aaa;
+    margin-top: 8px;
+}
+.stbox {
+    margin: 0;
+    padding: 0;
+}
+
+.stbox .pix_builder_bg{
+    float: left;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.box_1 {
+    margin-top: 30px !important;
+     margin-right: 10px !important;
+ }
+
+.box_2 {
+    margin-top: 30px !important;
+    margin-left: 10px !important;
+}
+
+.b_style {
+    padding: 16px 8px;
+    margin-right: 8px;
+    background-color: #F5F5F5;
+}
+
+.txt_style {
+    color: #aaa;
+    line-height: 1.4;
+}
+
+.env_st .pix_text {
+    color: #00BFFF;
+}
+
+.logo_style {
+    border-radius: 50%;
+}
+
+.center_text {
+    text-align: center;
+}
+
+
+
+#section_normal_6 .container::after {
+
+    content: "";
+    display: block;
+    clear: both;
+
+}
+/*****************************************************/
+#section_agency_5  {
+    background: hsl(0deg 0% 100%);
+
+}
+#section_agency_5 .center_text{
+    display: block;
+}
+#section_agency_5 .f1_style{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#section_agency_5 .f2_style{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#section_agency_5 .second_link{
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#section_agency_5 .second_link .slow_fade{
+    color: hsl(132.38deg 25.51% 48.43%);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border: hsl(132.38deg 25.51% 48.43%) solid 3px;
+
+}
+#section_agency_5 .f1_style .editContent .pix_text{
+    color: hsl(132.38deg 25.51% 48.43%);
+    font-size: 20px;
+
+}
+#section_agency_5 .rights_st{
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+#section_agency_5 .center_btn{
+    padding-top: 15px;
+    padding-right: 523px;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+#section_agency_5 .editContent .pix_text .rights_st {
+    color: #999999;
+}
+#section_agency_5 .editContent .pix_text .pixfort_st{
+    color: hsl(132.38deg 25.51% 48.43%);
+}

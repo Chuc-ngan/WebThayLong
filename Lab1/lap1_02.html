@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Website</title>
+</head>
+<style>
+:root {
+    --border-solid: 2px solid #000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 120%;
+}
+
+#main {
+    width: 50%;
+    border: var(--border-solid);
+}
+
+#header, #nav, #footer {
+    text-align: center;
+}
+
+#header {
+    padding: 12px 0;
+    border-bottom: var(--border-solid);
+}
+
+#nav {
+    padding: 12px 0;
+    border-bottom: var(--border-solid);
+}
+
+#container {
+    border-bottom: var(--border-solid);
+    display: flex;
+}
+
+#container .content-section {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 150px;
+    padding: 0 16px;
+    width: 15%;
+}
+
+#container .content-section.left {
+    border-right: var(--border-solid);
+}
+
+#container .content-section.right {
+    display: flex;
+    flex: 1 1;
+    width: 85%;
+    transform: translateX(-10%);
+}
+
+#footer .footer-section {
+    padding: 12px 0;
+}
+</style>
+<body>
+<div id="main">
+    <header id="header">Header Section</header>
+
+    <nav id="nav">Navigation Bar</nav>
+
+    <section id="container">
+        <div class="content-section left">Index</div>
+        <div class="content-section right">Content section</div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-section">
+            Footer Section
+        </div>
+    </footer>
+</div>
+</body>
+</html>

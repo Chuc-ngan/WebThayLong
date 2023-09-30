@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    :root {
+    --border-solid: 2px solid #000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-white {
+    color: #fff;
+}
+
+#container {
+    width: 900px;
+}
+
+.header-section {
+    height: 120px;
+    background-color: darkorange;
+    border: var(--border-solid);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-image {
+    position: relative;
+    height: 200px;
+    background-color: #ccc;
+    border: var(--border-solid);
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.company-image h3 {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-30%);
+}
+
+.company-image p {
+    position: absolute;
+    top: 70%;
+}
+
+.out-services h2 {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding: 0 16px;
+    place-items: center;
+}
+
+.grid-item {
+    width: 140px;
+    height: 180px;
+    background-color: #ccc;
+    padding: 20px;
+    border: var(--border-solid);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-section {
+    height: 120px;
+    background-color: cornflowerblue;
+    border: var(--border-solid);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+</style>
+<body>
+<div id="main">
+    <div id="container">
+        <div class="header-section">
+            <h3 class="text-white">Header Section
+                <br>900px - 120px
+            </h3>
+        </div>
+
+        <div class="company-image">
+            <h3 class="text-white">Company Image
+                <br>900px - 400px
+            </h3>
+            <p class="text-white">designed by - gdatamart.com</p>
+        </div>
+
+        <div class="out-services">
+            <h2>Our Services</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h3 class="text-white">
+                        services
+                        <br>
+                        <br>width:180px
+                        <br>height:220px
+                    </h3>
+                </div>
+                <div class="grid-item">
+                    <h3 class="text-white">
+                        services
+                    </h3>
+                </div>
+                <div class="grid-item">
+                    <h3 class="text-white">
+                        services
+                    </h3>
+                </div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <h3 class="text-white">Footer Section
+                <br>900px - 120px
+            </h3>
+        </div>
+    </div>
+</div>
+</body>
+</html>
