@@ -20,6 +20,7 @@ a,p{
 }
 
 #section_header_2_dark #navbar-collapse-02  {
+    padding-top: 10px;
     width: auto;
     float: right;
 }
@@ -35,10 +36,10 @@ a,p{
     display: none;
 }
 #section_header_2_dark #navbar-collapse-02  ul li{
+    color: hsl(45.88deg 57.14% 46.67%);
     list-style-type: none;
     float: left;
     padding: 10px;
-    color: #cccccc;
     font-weight: 700;
 
 }
@@ -56,4 +57,188 @@ a,p{
     width: 1180px;
     margin-left: auto;
     margin-right: auto;
+}
+/**********************************************************************/
+#section_pix_4{
+
+}
+#section_pix_4 .pix_video_div  .bgvid{
+    width: 1520px;
+}
+#section_pix_4 .section_wrapper{
+
+}
+.section_wrapper{
+    position: relative;
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+#section_pix_4 .context_style{
+    text-align: center;
+    color: hsl(264deg 3.23% 69.61%);
+    position: absolute;
+    bottom: 280px;
+    left: 300px;
+    right: 300px;
+}
+.title_style .pix_text{
+    color: hsl(0deg 0% 100%);
+    font-size: 50px;
+    font-weight: bold;
+}
+.subtitle_style {
+    padding: 50px 0;
+    margin:0 120px;
+    width: 650px;
+}
+.subtitle_style .pix_text{
+    font-size: 20px;
+    color: hsl(0deg 0% 100%);
+}
+.email_subscribe{
+    width: 500px;
+    height: 70px;
+    margin: 0 170px;
+    background-color: #333333;
+    border: #999999 solid 3px;
+    border-radius: 5px;
+    opacity: 0.9; /* Điều chỉnh mức độ mờ ở đây */
+}
+#email{
+    border-radius: 5px;
+    margin: 10px 5px;
+    width: 300px;
+    height: 45px;
+}
+#subscribe_btn_1{
+    background-color: hsl(45.24deg 87.21% 57.06%);
+    color: #F5F5F5;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px 5px;
+    width: 150px;
+    height: 50px;
+}
+.note_st{
+    padding: 20px 0;
+}
+.note_st .pix_text{
+    color: hsl(280deg 1.38% 57.45%);
+}
+/*********************************************/
+#section_university_5{
+    height: 600px;
+    background-color: hsl(0deg 0% 100%);
+}
+#section_university_5 .alpha{
+    padding-top: 30px;
+    float: left;
+    width: 700px;
+}
+.psingle_item{
+    justify-content: left;
+    justify-items: center;
+    text-align: left;
+    height: 150px;
+    display: flex;
+}
+#section_university_5 .omega{
+    padding: 20px;
+    margin: 20px 0;
+    background-color: hsl(0deg 2.44% 91.96%);
+    border: #999999 solid 0px;
+    height: 480px;
+    width: 400px;
+    float: right;
+}
+.icon_st{
+    padding-top: 35px;
+    padding-right: 50px;
+}
+.text_st .title_st{
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-size: 23px;
+}
+.subject_st{
+    margin: 0;
+    font-weight: normal;
+    color: hsl(0deg 0% 80.55%);
+    font-size: 15px;
+}
+.substyle .title-style{
+    padding-top: 20px;
+}
+.substyle .title-style .pix_text{
+    font-size: 23px;
+}
+.text-style .pix_text{
+    font-size: 17px;
+    color: hsl(280deg 1.38% 57.45%)
+}
+#contact_form input ,#countries{
+    margin: 10px;
+    border-radius: 5px;
+    width: 370px;
+    height: 50px;
+}#countries{
+     margin: 10px;
+     border-radius: 5px;
+     width: 380px;
+     height: 50px;
+ }
+.send_btn button{
+    color: #F5F5F5;
+    font-weight: bold;
+    background-color: hsl(115.44deg 40.51% 61.76%);
+    margin: 10px;
+    border-radius: 5px;
+    width: 380px;
+    height: 50px;
+}
+/********************************************************************/
+#section_ecourse_7{
+    background-color: hsl(0deg 0% 96.47%);
+    height: 50px;
+}
+.bg_foot .alpha{
+    padding-top: 20px;
+    width: auto;
+    float: left;
+}
+.bg_foot .omega{
+    padding-right: 30px;
+    width: auto;
+    float: right;
+}
+.bg_foot .omega .likes_st{
+    padding-top: 20px;
+    width: auto;
+    float: left;
+}
+.bg_foot .omega .soc_icons{
+    padding-left: 10px;
+    width: auto;
+    float: right;
+}
+.pixfort_st{
+    color: hsl(266.13deg 27.93% 56.47%);
+}
+.bg_foot .omega .soc_icons ul{
+    border-radius: 5px;
+    background-color: hsl(0deg 0% 85.12%);
+    border: #cccccc solid 0;
+    padding: 10px 15px;
+
+}
+.bg_foot .omega .soc_icons li{
+    color: hsl(280deg 1.38% 57.45%);
+    padding-left: 10px;
+    display: inline-block;
+}
+.bg_foot .omega .soc_icons i{
+    color: #F5F5F5;
+}
+#section_ecourse_7 .pix_text{
+    color: hsl(280deg 1.38% 57.45%);
 }
