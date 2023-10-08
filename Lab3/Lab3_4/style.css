@@ -1,0 +1,133 @@
+body{
+    font-size: 12px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Arial,sans-serif;
+}
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+}
+h4{
+    font-size: 15px;
+    color: chartreuse;
+}
+.content{
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    height: 800px;
+    background-color: #aaaaaa;
+    position: relative;
+}
+form{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 570px;
+    height: 770px;
+    background-color:#F5F5F5 ;
+    border-radius: 10px;
+}
+.pd{
+    padding: 0 35px;
+}
+ul{
+    background: lightgrey;
+    border-radius: 5px;
+    border: #aaaaaa solid 2px;
+    padding: 10px 0;
+}
+.account input{
+    height: 20px;
+    width: 420px;
+    border: none;
+    background: lightgrey;
+}
+.items{
+    margin: 0;
+    border-right: #aaaaaa 2px solid;
+    padding: 5px 20px;
+    font-size: 15px;
+}.dob{
+    height: 100px;
+ }
+.pd.dob.gender .left {
+    float: left;
+    width: 240px;
+}
+.pd.dob.gender .right {
+    width: 240px;
+    float: right;
+}
+.pd.dob.gender .left input{
+    text-align: center;
+    background: lightgrey;
+    height: 40px;
+    width: 70px;
+    border: #aaaaaa solid 2px;
+    border-radius: 5px;
+}
+.pd.dob.gender .right input{
+    text-align: center;
+    background: lightgrey;
+    height: 40px;
+    width: 110px;
+    border: #aaaaaa solid 2px;
+    border-radius: 5px;
+}
+.card{
+    height: 250px;
+}
+.card .row .left .green{
+    background-color: chartreuse;
+}
+.card .row .left, .right{
+    padding: 0;
+    cursor: pointer;
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+    width: 248px;
+    display: inline-block;
+}
+.row .left li, .right li{
+    height: 25px;
+}
+.row-2 ul{
+    background: lightgrey;
+    border-radius: 5px;
+    border: #aaaaaa solid 2px;
+    padding: 10px 0;
+}
+
+.row-2 ul li input {
+    height: 20px;
+    width: 420px;
+    border: none;
+    background: lightgrey;
+}
+.row-3 ul li input{
+    height: 20px;
+    border: none;
+    background: lightgrey;
+}
+select{
+    text-align: center;
+    background: lightgrey;
+    border-radius: 5px;
+    border: #aaaaaa solid 2px;
+    width: 120px;
+    height: 50px;
+}
+.foot {
+    display: flex;
+}
+.foot p{
+    padding-top: 10px;
+    margin: 0;
+    font-size: 15px;
+    color: #999999;
+}

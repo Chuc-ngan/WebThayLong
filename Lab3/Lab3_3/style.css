@@ -1,0 +1,87 @@
+body{
+    font-size: 12px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Arial,sans-serif;
+}
+.sign-in{
+         margin: auto;
+        background-color: #eeeeee;
+}
+img {
+
+    background-clip: border-box;
+    mix-blend-mode: multiply;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1510px;
+}
+.form{
+    height: 600px;
+    width: 350px;
+    border-radius: 5px;
+    background: #eeeeee;
+    top: 50px;
+    left: 600px;
+    position: absolute;
+    z-index: 1;
+}
+.image{
+    background-image: linear-gradient(to left, rgba(0, 168, 255, 0.5), rgba(185, 0, 255, 0.5));
+    background-image: -webkit-linear-gradient(left, rgba(0, 168, 255, 0.5), rgba(185, 0, 255, 0.5));
+    position: relative;
+    z-index: 0;
+}
+h4{
+    padding: 30px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.row{
+    margin: 20px 30px;
+
+}
+input{
+   font-weight: bold;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+button{
+    color: #F5F5F5;
+    cursor: pointer;
+    margin: 20px 70px;
+    background: blueviolet;
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+}
+h5{
+    font-size: 12px;
+   text-align: center;
+}
+.icon ul{
+    display: flex;
+    margin: 30px 60px;
+}
+li{
+    padding: 10px;
+    background: #F5F5F5;
+    border-radius: 100%;
+    list-style-type: none;
+    margin-right: 20px;
+}
+li i{
+    font-size: 20px;
+    color: #00BFFF;
+}
+.footer{
+    padding-top: 40px ;
+    color: blueviolet;
+}
