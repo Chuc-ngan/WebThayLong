@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+            font-size: 14px;
+            font-family: Arial;
+        }
+
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+            padding: 10px 0 10px;
+            text-align: center;
+        }
+
+        .container input, textarea {
+            height: 20px;
+            width: 500px;
+            margin-top: 10px;
+        }
+
+        .container textarea {
+            height: 100px;
+        }
+
+        .container button {
+            border: none;
+            margin-top: 10px;
+            width: 300px;
+            padding: 10px 15px;
+
+        }
+        .container #show{
+            margin-top: 10px;
+            font-size: 17px;
+        }
+    </style>
+    <script>
+        function countLine() {
+            var chuoi = document.getElementById("area").value;
+            var line = document.getElementById("textField").value;
+            var count = 0;
+            for (var i = 0; i < chuoi.length; ++i) {
+                if (chuoi.substring(i, i + line.length) == line) {
+                    count += 1;
+                }
+                document.getElementById("show").innerHTML=count;
+            }
+        };
+
+    </script>
+</head>
+<body>
+<div class="container">
+    <textarea id="area" placeholder="Nhập đoạn văn"></textarea><br>
+    <input type="text" id="textField" placeholder="Nhập một dòng bất kì"><br>
+    <button id="btn-event" onclick="countLine()">Số lần xuất hiện của dòng trong đoạn văn</button>
+    <div id="show"></div>
+</div>
+</body>
+</html>

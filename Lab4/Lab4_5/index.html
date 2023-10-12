@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            height: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        img {
+
+            width: 50%;
+            height: 50%;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <img src="Image/img-5.jpg" alt="Image">
+</div>
+<script>
+    const container = document.getElementById("container");
+    const image = container.querySelector("img");
+
+    // Biến để lưu trữ góc xoay
+    let angle = 0;
+
+    // Hàm xoay hình ảnh
+    function rotateImage() {
+        image.style.transform = `rotate(${angle}deg)`;
+    }
+
+    // Xoay hình ảnh sau 2 giây
+    setInterval(() => {
+        // Tăng góc xoay
+        angle += 15;
+
+        // Nếu góc xoay vượt quá 360o, thì reset về 0
+        if (angle > 360) {
+            angle = 0;
+        }
+
+        // Xoay hình ảnh
+        rotateImage();
+    }, 2000);
+</script>
+</body>
+</html>

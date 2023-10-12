@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="page">
+  <div id="container">
+    <div id="form-content">
+      <div class="header">
+        <h3> Contact Us</h3>
+      </div>
+      <form class="input_form_group">
+        <div class="input_form">
+          <label name="full_name" for="full_name">FULL NAME</label>
+          <input type="text" id="full_name" placeholder="Enter Your Name" required>
+        </div>
+        <div class="input_form2">
+          <div class="input_form2_alpha">
+            <label name="email" for="mail">EMAIL</label>
+            <input type="email" id="mail" placeholder="Enter Your Email" required><span class="unvalid"><i
+                  id="unvalid_mail"></i></span>
+          </div>
+          <div class="input_form2_omega">
+            <label name="phone" for="phone"> PHONE</label>
+            <input type="phone" id="phone" required placeholder="Enter Number Phone"><span
+                  class="unvalid"><i id="unvalid_phone"></i></span>
+          </div>
+        </div>
+
+        <div class="input_form">
+          <label name="service"> NEEDED SERVICES</label>
+          <input type="text" class="form_input" placeholder="  Enter Your Name">
+        </div>
+        <div class="input_form">
+          <label name="services" for="services"> NEEDED SERVICES</label>
+          <select id="services">
+            <option class="opt">Please chooses</option>
+            <option class="opt">Internet</option>
+            <option class="opt">Entertainment</option>
+            <option class="opt">Foods</option>
+          </select>
+        </div>
+        <div class="input_form">
+          <label name="message" for="message">MESSAGE</label>
+          <textarea id="message" placeholder="Your Message Here"></textarea>
+        </div>
+        <button class="btn btn-submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

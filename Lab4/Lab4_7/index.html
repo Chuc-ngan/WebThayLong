@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .button-container {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            display: grid;
+            grid-template-columns: repeat(8, 50px);
+            grid-gap: 5px;
+            max-width: 450px;
+            margin: 0 auto;
+        }
+
+        .button {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: #4caf50;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container" id="buttonContainer">
+    </div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var buttonContainer = document.getElementById('buttonContainer');
+        var messageDiv = document.getElementById('message');
+        var buttons = [];
+
+        var numbers = Array.from({length: 64}, (_, i) => i + 1);
+        numbers.sort(() => Math.random() - 0.5);
+
+        for (var i = 0; i < 64; i++) {
+            var button = document.createElement('button');
+            button.classList.add('button');
+            button.textContent = numbers[i];
+            button.style.left = (i % 8) * 55 + 'px'; // Định vị theo cột
+            button.style.top = Math.floor(i / 8) * 55 + 'px'; // Định vị theo hàng
+
+            button.addEventListener('click', function() {
+                var clickedNumber = parseInt(this.textContent);
+
+                if (clickedNumber === buttons.length + 1) {
+                    buttons.push(clickedNumber);
+                    buttonContainer.removeChild(this);
+
+                    if (buttons.length === 64) {
+                        messageDiv.textContent = "Chúc mừng! Bạn đã nhấn đúng tất cả các button!";
+                    }
+                } else {
+                    alert('Bạn nhấn sai!');
+                }
+            });
+
+            buttonContainer.appendChild(button);
+        }
+    });
+</script>
+</body>
+</html>
